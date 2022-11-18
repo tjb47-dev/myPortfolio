@@ -28,6 +28,11 @@ THEN I am presented with a responsive layout that adapts to my viewport
 Here is the link to the GitPages site I have created.
 
 
+## Screenshots
+![Screenshot of My Portfoilio Webpage.](https://raw.githubusercontent.com/tjb47-dev/myPortfolio/main/assets/images/portfolio1.png)
+![Screenshot of My Portfoilio Webpage.](https://raw.githubusercontent.com/tjb47-dev/myPortfolio/main/assets/images/portfolio2.png)
+
+
 ## Credits
 
 N/A
