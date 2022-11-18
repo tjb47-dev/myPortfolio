@@ -26,7 +26,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Link
 
 Here is the link to the GitPages site I have created.
-
+https://tjb47-dev.github.io/myPortfolio/#aboutme
 
 ## Screenshots
 ![Screenshot of My Portfoilio Webpage.](https://raw.githubusercontent.com/tjb47-dev/myPortfolio/main/assets/images/portfolio1.png)
