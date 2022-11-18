@@ -1,0 +1,119 @@
+/* UNIVERSAL STYLES */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* HEADER */
+
+header {
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #4d007f;
+    color: #efd8ff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header h1 .port {
+    color: #efd8ff;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* TEXT STYLES */
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: #efd8ff;
+    text-decoration: none;
+}
+
+
+/* MAIN DIVISION AND BACKGROUND IMAGE */
+
+.main {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("https://cdn.discordapp.com/attachments/865371327984697364/1042942980580970577/portfolio_back.png");
+    background-size: cover;
+    background-position: center;
+}
+
+/* FLOATS */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* MAIN */
+
+main {
+    width: 100%;
+    display: inline-block;
+}
+
+
+/* ABOUT SECTIONS */
+
+.about {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #4d007f;
+    color: #efd8ff;
+}
+
+.about img {
+    max-height: 200px;
+}
+
+
+/* FOOTER */
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
