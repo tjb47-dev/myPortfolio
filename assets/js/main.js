@@ -76,4 +76,51 @@ Portfolio.cursor = {
 	}
 };
 
+Portfolio.uploader = {
+	
+	progress: 0,
+	count: 0,
+	thisCount: 0,
+	
+	handlers: {
+		
+		startInitFunctionOrder(data) 
+		{
+			Portfolio.uploader.count = data.count;
+		},
+		
+		initFunctionInvoking(data) 
+		{
+			let localdata = ((data.idx / Portfolio.uploader.count) * 100);
+			Portfolio.uploader.updateProgress(localdata);
+		},
+		
+		startDataFileEntries(data) 
+		{
+			Portfolio.uploader.count = data.count;
+		},
+		
+		performMapLoadFunction(data) 
+		{
+			++Portfolio.uploader.thisCount;
+			let localdata = ((Portfolio.uploader.thisCount / Portfolio.uploader.count) * 100);
+			Portfolio.uploader.updateProgress(localdata);
+		}
+	},
+	
+	updateProgress: function(progress)
+	{
+		if(progress > Portfolio.uploader.progress)
+		{
+			uploader_line.style.width = progress + '%';
+			Portfolio.uploader.progress = progress;
+		}
+	},
+	
+	tmp: function()
+	{
+		return `<div id="uploader_line" class="uploader-line"></div>`;
+	},	
+};
+
 
