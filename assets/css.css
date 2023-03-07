@@ -79,39 +79,43 @@
 	color: var(--subject-color);
 }
 
-.biographies-title{
-	font-family: chunkfive;
-	font-size: 35px;
+
+
+/* about */
+
+.about-wrap{
+	display: flex;
+	flex-wrap: wrap;
 }
 
-.biographies-description{
-	font-family: chunkfive;
-	font-size: 19px;
+/* .about-item{
+	width: 33.3%;
+	padding: 40px 50px 0px 50px;
+} */
+
+.about-title{
+	text-align: center;
+}	
+
+.about-status{
+	text-align: center;
+	font-size: 20px;
+	padding-bottom: 8px;
+	color: #a571ff;
 }
 
-.biographies-status{
-	font-family: chunkfive;
-	font-size: 19px;
-	color: var(--subject-color);
+.about-avatar{
+    height: 200px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-image: url(../custom_data/avatar-default.png);
 }
-
-
-.doj-title{
-	font-family: chunkfive;
-	font-size: 35px;
+		
+.about-description{
+    text-align: center;
+    padding: 20px 20px;
 }
-
-.doj-description{
-	font-family: chunkfive;
-	font-size: 19px;
-}
-
-.doj-status{
-	font-family: chunkfive;
-	font-size: 19px;
-	color: var(--subject-color);
-}
-
 
 /* template */
 
@@ -427,6 +431,7 @@ div{
 	float: left;
 	padding-top: 10px;
 	padding-bottom: 30px;
+	color: #ffffff;
 }
 
 .GitHub-title{

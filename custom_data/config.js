@@ -4,7 +4,7 @@ var Config = {
 	pause_after_intro: 3000,
 	bg_video: 'MvkvaJ8tB4A',
 
-	radio_volume: 0.05,
+	radio_volume: 0.20,
 	radio_playlist: [
         {name: '', link:'custom_data/code.mp3' }
     ],
