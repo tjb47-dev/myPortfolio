@@ -7,7 +7,7 @@ A Repository dedicated to my personal portfolio.
 
 ##Screenshot
 
-![Screenshot of My Portfoilio Webpage.](https://github.com/tjb47-dev/myPortfolio/blob/main/custom_data/screenshot.png?raw=true)
+![Screenshot of My Portfoilio Webpage.]()
 
 
 ## Link
